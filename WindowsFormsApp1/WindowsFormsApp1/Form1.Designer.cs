@@ -106,7 +106,6 @@ namespace WindowsFormsApp1
             this.txtDayVuaNhap.Name = "txtDayVuaNhap";
             this.txtDayVuaNhap.Size = new System.Drawing.Size(368, 22);
             this.txtDayVuaNhap.TabIndex = 6;
-            this.txtDayVuaNhap.Text = "2  1  3  5  4";
             // 
             // txtTongCacPT
             // 
@@ -115,7 +114,6 @@ namespace WindowsFormsApp1
             this.txtTongCacPT.Name = "txtTongCacPT";
             this.txtTongCacPT.Size = new System.Drawing.Size(275, 22);
             this.txtTongCacPT.TabIndex = 7;
-            this.txtTongCacPT.Text = "15";
             // 
             // txtTongChan
             // 
@@ -124,7 +122,6 @@ namespace WindowsFormsApp1
             this.txtTongChan.Name = "txtTongChan";
             this.txtTongChan.Size = new System.Drawing.Size(114, 22);
             this.txtTongChan.TabIndex = 8;
-            this.txtTongChan.Text = "9";
             // 
             // txtTongLe
             // 
@@ -133,7 +130,6 @@ namespace WindowsFormsApp1
             this.txtTongLe.Name = "txtTongLe";
             this.txtTongLe.Size = new System.Drawing.Size(129, 22);
             this.txtTongLe.TabIndex = 9;
-            this.txtTongLe.Text = "6";
             // 
             // btnNhap
             // 
@@ -143,6 +139,7 @@ namespace WindowsFormsApp1
             this.btnNhap.TabIndex = 10;
             this.btnNhap.Text = "Nhập";
             this.btnNhap.UseVisualStyleBackColor = true;
+            this.btnNhap.Click += new System.EventHandler(this.btnNhap_Click);
             // 
             // btnTiepTuc
             // 
@@ -152,6 +149,7 @@ namespace WindowsFormsApp1
             this.btnTiepTuc.TabIndex = 11;
             this.btnTiepTuc.Text = "Tiếp tục";
             this.btnTiepTuc.UseVisualStyleBackColor = true;
+            this.btnTiepTuc.Click += new System.EventHandler(this.btnTiepTuc_Click);
             // 
             // btnThoat
             // 
@@ -161,6 +159,7 @@ namespace WindowsFormsApp1
             this.btnThoat.TabIndex = 12;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // lblNhapDaySoVaTinhTong
             // 
@@ -169,7 +168,7 @@ namespace WindowsFormsApp1
             this.lblNhapDaySoVaTinhTong.ForeColor = System.Drawing.Color.Red;
             this.lblNhapDaySoVaTinhTong.Location = new System.Drawing.Point(122, 23);
             this.lblNhapDaySoVaTinhTong.Name = "lblNhapDaySoVaTinhTong";
-            this.lblNhapDaySoVaTinhTong.Size = new System.Drawing.Size(453, 51);
+            this.lblNhapDaySoVaTinhTong.Size = new System.Drawing.Size(448, 49);
             this.lblNhapDaySoVaTinhTong.TabIndex = 13;
             this.lblNhapDaySoVaTinhTong.Text = "Nhập dãy số và tính tổng";
             // 
