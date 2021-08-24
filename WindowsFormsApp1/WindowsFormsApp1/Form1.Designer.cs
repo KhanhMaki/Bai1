@@ -97,7 +97,6 @@ namespace WindowsFormsApp1
             this.txtNhapSo.Name = "txtNhapSo";
             this.txtNhapSo.Size = new System.Drawing.Size(167, 22);
             this.txtNhapSo.TabIndex = 5;
-            this.txtNhapSo.Text = "4";
             // 
             // txtDayVuaNhap
             // 
